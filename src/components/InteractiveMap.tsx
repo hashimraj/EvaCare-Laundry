@@ -15,7 +15,7 @@ interface Location {
 
 const InteractiveMap = () => {
   const mapRef = useRef<HTMLDivElement>(null);
-  const [apiKey] = useState('AIzaSyBxF07bNXgYjR28PLOfMA_WHo3ixKAw54E');
+  const [apiKey] = useState('hahaha!');
   const [mapLoaded, setMapLoaded] = useState(false);
 
   const locations: Location[] = [
