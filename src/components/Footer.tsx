@@ -90,9 +90,7 @@ const Footer = () => {
             <div className="mt-6">
               <h5 className="font-medium mb-2">Business Hours</h5>
               <div className="text-sm text-background/80 space-y-1">
-                <p>Mon - Fri: 8:00 AM - 8:00 PM</p>
-                <p>Saturday: 8:00 AM - 8:00 PM</p>
-                <p>Sunday: 8:00 AM - 8:00 PM</p>
+                <p>Mon - Sun: 8:00 AM - 8:00 PM</p>
               </div>
             </div>
           </div>
