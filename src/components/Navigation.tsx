@@ -59,7 +59,7 @@ const Navigation = () => {
             </div>
             <div className="flex items-center gap-2">
               <MapPin size={16} />
-              <span>Unicity Mall, Ruiru</span>
+              <span>Unicity Mall, Thika Road & Galana Energies, Eastern Bypass</span>
             </div>
           </div>
           <div className="text-center md:text-right">

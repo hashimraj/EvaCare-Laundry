@@ -73,17 +73,17 @@ const HomePage = () => {
 
   const testimonials = [
     {
-      name: "Sarah Johnson",
+      name: "Sarah Kerubo",
       rating: 5,
       comment: "Absolutely fantastic service! My clothes come back perfectly clean and fresh every time."
     },
     {
-      name: "Michael Chen",
+      name: "Michael Murithi",
       rating: 5,
       comment: "The pickup and delivery service is so convenient. Quality is always excellent."
     },
     {
-      name: "Emily Davis",
+      name: "Sandrah Pendo",
       rating: 5,
       comment: "I love their eco-friendly approach. Great for the environment and my family's health."
     }

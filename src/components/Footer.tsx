@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
             </div>
             <p className="text-background/80 mb-4 max-w-md">
-              Your trusted partner for premium laundry and dry cleaning services in Nairobi. 
+              Your trusted partner for premium laundry and dry cleaning services in Nairobi.
               We care for your garments with expertise and attention to detail.
             </p>
             <div className="flex gap-4">
@@ -77,18 +77,22 @@ const Footer = () => {
               <div className="flex items-start gap-3">
                 <MapPin size={16} className="text-primary mt-0.5" />
                 <span className="text-background/80">
-                  Eastern Bypass, Ruiru<br />
-                  Near Kenyatta University main campus
+                  Unicity Mall, Thika Road<br />
+                  Near Kenyatta University main campus <br />
+                  <span className="block text-center font-bold">&</span>
+                  Eastern Bypass, Kamakis<br />
+                  Galana Energies
                 </span>
+
               </div>
             </div>
-            
+
             <div className="mt-6">
               <h5 className="font-medium mb-2">Business Hours</h5>
               <div className="text-sm text-background/80 space-y-1">
-                <p>Mon - Fri: 7:00 AM - 7:00 PM</p>
-                <p>Saturday: 8:00 AM - 6:00 PM</p>
-                <p>Sunday: 9:00 AM - 5:00 PM</p>
+                <p>Mon - Fri: 8:00 AM - 8:00 PM</p>
+                <p>Saturday: 8:00 AM - 8:00 PM</p>
+                <p>Sunday: 8:00 AM - 8:00 PM</p>
               </div>
             </div>
           </div>

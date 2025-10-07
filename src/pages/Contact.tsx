@@ -77,13 +77,17 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6 text-primary" />,
       title: "Address",
-      content: "Eastern Bypass, Ruiru",
+      content: "Unicity Mall, Thika Road",
       description: "Near Kenyatta University main campus"
+    },
+    {
+      content: "Galana Energies",
+      description: "Eastern Bypass, Kamakis"
     },
     {
       icon: <Clock className="w-6 h-6 text-primary" />,
       title: "Hours",
-      content: "Mon-Fri: 7AM-7PM, Sat: 8AM-6PM, Sun: 9AM-5PM",
+      content: "Mon-Fri: 8AM-8PM, Sat: 8AM-8PM, Sun: 8AM-8PM",
       description: "We're here when you need us"
     }
   ];
@@ -153,7 +157,7 @@ const Contact = () => {
                         type="tel"
                         value={formData.phone}
                         onChange={handleChange}
-                        placeholder="(555) 123-4567"
+                        placeholder="+254 712 345 678"
                       />
                     </div>
                     <div>
@@ -273,7 +277,7 @@ const Contact = () => {
               <div className="mt-6 text-center">
                 <h3 className="text-xl font-semibold text-foreground mb-2">Our Two Locations</h3>
                 <p className="text-muted-foreground mb-4">
-                  Click on the markers to see details and get directions to either branch
+                  Experience freshness and care at our two easily accessible branches.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mt-4">
                   <div className="text-sm">
