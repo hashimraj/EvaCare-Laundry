@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
-import { Phone, Mail, MapPin, Facebook, Instagram, Twitter } from 'lucide-react';
+import { Phone, Mail, MapPin, Facebook, Instagram} from 'lucide-react';
+import { FaTiktok } from "react-icons/fa";
 import logoImage from '@/assets/evacare-logo.png';
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
@@ -23,14 +23,24 @@ const Footer = () => {
               We care for your garments with expertise and attention to detail.
             </p>
             <div className="flex gap-4">
-              <a href="https://www.facebook.com/profile.php?id=61581434518500" target="_blank" rel="noopener noreferrer" className="text-background/80 hover:text-primary transition-colors">
+              <a
+                href="https://www.facebook.com/profile.php?id=61581434518500"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-background/80 hover:text-primary transition-colors"
+              >
                 <Facebook size={20} />
               </a>
               <a href="#" className="text-background/80 hover:text-primary transition-colors">
                 <Instagram size={20} />
               </a>
-              <a href="#" className="text-background/80 hover:text-primary transition-colors">
-                <Twitter size={20} />
+              <a
+                href="https://www.tiktok.com/@evacare.laundry.d?_t=ZM-90u27TnbDS8&_r=1"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-background/80 hover:text-primary transition-colors"
+              >
+                <FaTiktok size={20} />
               </a>
             </div>
           </div>
@@ -83,7 +93,6 @@ const Footer = () => {
                   Eastern Bypass, Kamakis<br />
                   Galana Energies
                 </span>
-
               </div>
             </div>
 
