@@ -100,7 +100,7 @@ const Services = () => {
   const processSteps = [
     {
       icon: <Truck className="w-8 h-8 text-primary" />,
-      title: "Free Pickup",
+      title: "Doorstep Pickup",
       description: "Schedule a convenient pickup time and we'll collect your items from your doorstep."
     },
     {
@@ -216,7 +216,7 @@ const Services = () => {
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl font-bold text-white mb-4">Ready to Get Started?</h2>
           <p className="text-xl text-white/90 mb-8 max-w-2xl mx-auto">
-            Experience the convenience of professional cleaning with free pickup and delivery
+            Experience the convenience of professional cleaning with doorstep pickup and delivery
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button 

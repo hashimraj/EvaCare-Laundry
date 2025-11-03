@@ -32,7 +32,7 @@ const About = () => {
     "99% customer satisfaction rate",
     "Eco-friendly certified processes",
     "Award-winning customer service",
-    "Free pickup and delivery service"
+    "Doorstep pickup and delivery service"
   ];
 
   return (

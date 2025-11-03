@@ -63,7 +63,7 @@ const Navigation = () => {
             </div>
           </div>
           <div className="text-center md:text-right">
-            <span className="font-medium">Free Pickup & Delivery!</span>
+            <span className="font-medium">Doorstep Pickup & Delivery!</span>
           </div>
         </div>
       </div>

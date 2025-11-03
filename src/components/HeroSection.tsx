@@ -62,7 +62,7 @@ const HeroSection = () => {
             
             <p className="text-base sm:text-lg md:text-xl text-white mb-6 md:mb-8 max-w-lg mx-auto lg:mx-0 slide-up drop-shadow-md">
               Professional laundry and dry cleaning services with eco-friendly practices. 
-              Free pickup and delivery in your area.
+              Doorstep pickup and delivery in your area.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center lg:justify-start mb-6 md:mb-8">
@@ -102,7 +102,7 @@ const HeroSection = () => {
               </div>
               <div className="flex items-center gap-2 md:gap-3 justify-center lg:justify-start bg-white/10 backdrop-blur-sm rounded-lg p-2 md:p-3">
                 <Truck className="text-white" size={20} />
-                <span className="text-sm md:text-base font-medium">Free Delivery</span>
+                <span className="text-sm md:text-base font-medium">Doorstep Delivery</span>
               </div>
             </div>
           </div>
